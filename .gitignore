@@ -10,3 +10,4 @@ tags
 compile_commands.json
 concord.config
 *__pycache__
+docker/resources/incident-reporting/
