@@ -5,6 +5,8 @@ services:
     tty: true
     volumes:
       - ../resources/truffle:/truffle
+      - ../resources/incident-reporting:/incident-reporting
+      - ../resources/vmware-blockchain-samples:/vmware-blockchain-samples
 
   concord1:
     image: concord-node:latest
